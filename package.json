@@ -7,6 +7,7 @@
   "author": "Norman Paniagua (https://github.com/norman784)",
   "license": "MIT",
   "dependencies": {
+    "nan": "^2.14.0",
     "node-gyp": "^3.6.2",
     "shelljs": "^0.8.3"
   },

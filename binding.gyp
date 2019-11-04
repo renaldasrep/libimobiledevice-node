@@ -23,7 +23,8 @@
             "src/src/msc_compat.h"
         ],
         "include_dirs": [
-          "src"
+          "src",
+          "<!(node -e \"require('nan')\")"
         ],
         "conditions": [
           ['OS=="mac"',
