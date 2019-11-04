@@ -269,7 +269,7 @@ namespace idevice_info_node {
     }
 }
 void Initialize(Local<Object> exports) {
-    NODE_SET_METHOD(exports, "idevice_backup2", idevice_info_node::backup2);
+    // NODE_SET_METHOD(exports, "idevice_backup2", idevice_info_node::backup2);
     NODE_SET_METHOD(exports, "idevice_info", idevice_info_node::info);
     NODE_SET_METHOD(exports, "idevice_id", idevice_info_node::id);
     NODE_SET_METHOD(exports, "idevice_pair", idevice_info_node::pair);
