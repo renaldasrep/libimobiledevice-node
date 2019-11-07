@@ -65,9 +65,6 @@ if not exist %installation_dir% (
     echo 'Compiling ideviceinfo project'
     msbuild /m libimobiledevice\libimobiledevice.sln /p:Configuration=Release /p:Platform=Win32 /t:ideviceinfo:Rebuild
 
-    echo 'Compiling idevicebackup2 project'
-    msbuild /m libimobiledevice\libimobiledevice.sln /p:Configuration=Release /p:Platform=Win32 /t:idevicebackup2:Rebuild
-
     echo 'Compiling idevicepair project'
     msbuild /m libimobiledevice\libimobiledevice.sln /p:Configuration=Release /p:Platform=Win32 /t:idevicepair:Rebuild
 
