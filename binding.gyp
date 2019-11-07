@@ -8,8 +8,6 @@
             "src/idevice/id.c",
             "src/idevice/info.h",
             "src/idevice/info.c",
-            "src/idevice/backup2.h",
-            "src/idevice/backup2.c",
             "src/idevice/pair.h",
             "src/idevice/pair.c",
             "src/common/endianness.h",

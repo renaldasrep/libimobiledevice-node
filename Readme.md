@@ -31,7 +31,7 @@ Binaries ported
 
 - [x] idevice_id
 - [ ] idevicebackup
-- [x] idevicebackup2
+- [ ] idevicebackup2
 - [ ] idevicecrashreport
 - [ ] idevicedate
 - [ ] idevicedebug
@@ -63,38 +63,5 @@ lib.info({
     domain: 'string',
 	key: 'string'
 }, (err, data) => console.log(err, data))
-
-// Device backup
-// Warning this are all the options that the method could take,
-// don't use all at the same time, check the library documentation
-// for more info [libimobiledevice.org](http://libimobiledevice.org)
-lib.backup2({
-	debug: true,
-    udid: 'string',
-    source: 'string',
-    backup: true,
-    restore: true,
-    system: true,
-    reboot: true,
-    copy: true,
-    settings: true,
-    remove: true,
-    password: 'string',
-    cloud: 'on|off'
-    full: false,
-    info: false,
-    list: false,
-    unback: false,
-    encryption: {
-    	status: 'on|off',
-    	password: 'string'
-	},
-    changepw: {
-    	newpw: 'string',
-    	backup_password: 'string'
-	},
-    interactive: true,
-    backup_directory: 'backup path'
-}, (err, data) => console.log(err, data), progress => console.log(progress))
 ```
 
